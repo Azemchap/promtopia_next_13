@@ -42,7 +42,6 @@ const solutions = [
     href: '#',
     icon: DocumentReportIcon,
   },
-  { name: 'Security Guides', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
 ]
 const resources = [
   { name: 'Formulary', description: 'Learn all about our platform to get the most out of it.', href: '#' },

@@ -32,10 +32,10 @@ const perks = [
 
 export default function Incentives() {
     return (
-        <section className="bg-gray-50 px-16">
+        <section className="bg-gray-50 px-4">
             <h2 className="sr-only">Our perks</h2>
             <h2 className="pt-20 lg:pt-24 text-2xl text-indigo-800 sm:text-4xl  text-center font-extrabold tracking-wide">Our perks</h2>
-            <p className="mt-3 max-w-2xl mx-auto text-xl text-center text-gray-500 sm:mt-4">
+            <p className="mt-1 max-w-2xl mx-auto text-xl text-center text-gray-500 sm:mt-4">
                 Connecting To Over 80% Of The North West Region. The People Trust Us...
             </p>
             <div className="max-w-screen-2xl mx-auto py-8 sm:px-2 sm:py-20 ">
