@@ -26,20 +26,17 @@ const navigation = {
         { name: 'Insights', href: '#' },
     ],
     support: [
-        { name: 'Pricing', href: '#' },
-        { name: 'Documentation', href: '#' },
+        { name: 'Contact', href: '#' },
+        { name: 'Help Desk', href: '#' },
         { name: 'Guides', href: '#' },
-        { name: 'API Status', href: '#' },
     ],
     company: [
         { name: 'About', href: '#' },
         { name: 'Blog', href: '#' },
         { name: 'Jobs', href: '#' },
-        { name: 'Press', href: '#' },
         { name: 'Partners', href: '#' },
     ],
     legal: [
-        { name: 'Claim', href: '#' },
         { name: 'Privacy', href: '#' },
         { name: 'Terms', href: '#' },
     ],
@@ -134,7 +131,18 @@ export default function Footer() {
                                     ))}
                                 </ul>
                             </div>
-                            
+                            <div className="mt-12 md:mt-0">
+                                <h3 className="text-sm font-semibold text-gray-50 tracking-wider uppercase">Legal</h3>
+                                <ul role="list" className="mt-4 space-y-4">
+                                    {navigation.legal.map((item) => (
+                                        <li key={item.name}>
+                                            <Link href={item.href} className="text-base text-gray-300 hover:text-gray-50">
+                                                {item.name}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="mt-8 xl:mt-0">
