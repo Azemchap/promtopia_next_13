@@ -33,7 +33,7 @@ const perks = [
 export default function Incentives() {
     return (
         <section className="bg-gray-50 px-4">
-            <h2 className="sr-only">Our perks</h2>
+            <h2 className="sr-only">Who we are?</h2>
             <h2 className=" lg:pt-12 text-2xl text-indigo-800 sm:text-4xl  text-center font-extrabold tracking-wide">Our perks</h2>
             <p className="mt-1 max-w-2xl mx-auto text-xl text-center text-gray-500 sm:mt-4">
                 Connecting To Over 80% Of The North West Region. The People Trust Us...
