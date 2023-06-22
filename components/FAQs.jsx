@@ -33,7 +33,7 @@ function classNames(...classes) {
 
 export default function FAQs() {
     return (
-        <div className=" w-full pb-20">
+        <div className=" w-full pb-20 bg-indigo-50">
             <h2 className="pt-20 lg:pt-24 text-3xl text-indigo-700  text-center font-bold tracking-wide">FAQ's</h2>
             <div className="py-20 px-4 sm:py-16 sm:px-6 lg:px-8">
                 <div className="max-w-4xl m-auto divide-y-2 divide-gray-300">

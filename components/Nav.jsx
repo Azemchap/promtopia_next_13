@@ -99,6 +99,9 @@ export default function Nav() {
             <Link href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Gallery
             </Link>
+            <Link href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+              About us
+            </Link>
 
 
             {/* More  */}
@@ -154,14 +157,11 @@ export default function Nav() {
 
           {/* Sign in sign up  */}
           <div className="hidden z-40 md:flex items-center justify-end md:flex-1 lg:w-0">
-            <Link href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-              About us
-            </Link>
             <Link
               href="#"
               className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
             >
-              Contact
+              Contact us
             </Link>
           </div>
         </div>
@@ -216,14 +216,7 @@ export default function Nav() {
               </div>
             </div>
             <div className="py-6 px-5">
-
               <div className="mt-6">
-                <p className="mb-6 text-center text-base font-medium text-gray-500">
-
-                  <Link href="#" className="text-indigo-600 hover:text-indigo-500">
-                    About us
-                  </Link>
-                </p>
                 <Link
                   href="#"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"

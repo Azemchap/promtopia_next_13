@@ -59,14 +59,14 @@ export default function Blog() {
                 <div className="text-center">
                     <h2 className="text-3xl tracking-tight font-extrabold text-indigo-800 sm:text-4xl ">Our recent updates</h2>
                     <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                        Learn more about our recent activities, programs and events.
+                        Learn more about our recent activities, programs and even.
                     </p>
                 </div>
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-7xl">
                     {posts.map((post) => (
                         <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                             <div className="flex-shrink-0">
-                                <Image className="h-48 w-full object-cover" src={post.imageUrl} alt="" width={40} height={40} />
+                                <Image className="h-48 w-full object-cover" src={post.imageUrl} alt="" width={400} height={400} />
                             </div>
                             <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                                 <div className="flex-1">
