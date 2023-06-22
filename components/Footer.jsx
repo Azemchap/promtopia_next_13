@@ -101,7 +101,7 @@ export default function Footer() {
                                 <ul role="list" className="mt-4 space-y-4">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
-                                            <Link href={item.href} className="text-base text-gray-400 hover:text-gray-50">
+                                            <Link href={item.href} className="text-base text-gray-300 hover:text-gray-50">
                                                 {item.name}
                                             </Link>
                                         </li>
@@ -113,7 +113,7 @@ export default function Footer() {
                                 <ul role="list" className="mt-4 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
-                                            <Link href={item.href} className="text-base text-gray-400 hover:text-gray-50">
+                                            <Link href={item.href} className="text-base text-gray-300 hover:text-gray-50">
                                                 {item.name}
                                             </Link>
                                         </li>
@@ -127,7 +127,7 @@ export default function Footer() {
                                 <ul role="list" className="mt-4 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
-                                            <Link href={item.href} className="text-base text-gray-400 hover:text-gray-50">
+                                            <Link href={item.href} className="text-base text-gray-300 hover:text-gray-50">
                                                 {item.name}
                                             </Link>
                                         </li>
@@ -177,7 +177,7 @@ export default function Footer() {
                             </Link>
                         ))}
                     </div>
-                    <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                    <p className="mt-8 text-base text-gray-200 md:mt-0 md:order-1">
                         &copy; 2023 NWRFHP. All rights reserved.
                     </p>
                 </div>
