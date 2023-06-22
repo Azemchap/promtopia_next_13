@@ -44,7 +44,7 @@ export default function Hero() {
                 {/* Logo cloud */}
                 <div className="bg-gray-100">
                     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-                        <p className="text-center text-3xl font-bold text-gray-700 tracking-tight">
+                        <p className="text-center text-xl font-bold text-indigo-700 tracking-tight">
                             Our partners
                         </p>
                         <div className="mt-12 grid grid-cols-2 justify-items-center gap-4 lg:grid-cols-5">
