@@ -6,6 +6,8 @@ const nextConfig = {
   },
   images: {
     domains: ['lh3.googleusercontent.com'],
+    domains: ['https://images.unsplash.com'],
+    domains: ['https://tailwindui.com'],
   },
   webpack(config) {
     config.experiments = {
